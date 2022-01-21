@@ -1,0 +1,324 @@
+@media screen and (min-width: 700px)
+{
+  html {
+  /*background-color: #3245E3;*/
+  height:50%;/*la banniere fera 20 pour cent de la hauteur de la page...*/
+  width: 100%;/* Et 100 pour cent de large*/
+  background-image:url(../images/backgroundTerre.jpg);   
+    }
+}
+
+@media screen and (min-width: 700px)
+{
+  h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  a{
+    color:white;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  body{
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to bottom right, rgb(14, 5, 97), 60%,white);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(68, 44, 126);
+    color:white;
+    border-style: inset;
+    border-width:3px 3px 3px 3px;
+  }   
+}
+
+
+
+  @media screen and (min-width: 700px)
+{
+  p{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    text-align: justify;
+  }
+}
+
+/*Portfolio*/
+
+@media screen and (min-width: 700px)
+{
+    .menuBody{
+      width: 600px;
+      height: 150px;
+      margin: 10px 30px auto;
+      padding: 0 20px 20px 20px;
+      border: 5px solid black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: linear-gradient(to bottom right, rgb(14, 5, 97), 60%,white);
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px rgb(68, 44, 126);
+      color:silver;
+      border-style: inset;
+      border-width:3px 3px 3px 3px;
+      text-align: center;
+    }
+  }
+
+@media screen and (min-width: 700px)
+{
+  .menuButtonAbout{
+    width: 15%;
+    height: 28%;
+    border: 1px solid #333;
+    border-radius: 120px;
+    padding: 8px 8px;
+    background-image:url("../images/Neptune.jpg") ;
+    background-size: 230px 210px  ;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: absolute;
+    left: 100px;  
+    bottom: 15px;
+    color:white;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .menuButtonCV{
+    width: 15%;
+    height: 28%;
+    border: 1px solid #333;
+    border-radius: 120px;
+    padding: 8px 8px;
+    background-image:url("../images/Jupiter.jpg") ;
+    background-size: 225px 205px  ;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: absolute;
+    right: 450px;  
+    top: 160px;
+    color:white;
+    
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .menuButtonProjects{
+    width: 15%;
+    height: 28%;
+    border: 1px solid #333;
+    border-radius: 120px;
+    padding: 8px 8px;
+    background-image:url("../images/Uranus.jpg") ;
+    background-size: 225px 205px  ;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: absolute;
+    right:770px;  
+    top: 310px;
+    color:white;
+    
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .menuButtonContact{
+    width: 15%;
+    height: 28%;
+    border: 1px solid #333;
+    border-radius: 120px;
+    padding: 8px 8px;
+    background-image:url("../images/Mars.jpg") ;
+    background-size: 225px 205px  ;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: absolute;
+    right: 150px;  
+    top: 15px;
+    color:white;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .menuAll{
+    /*display: flex;*/
+    padding: 40px;
+  }
+}
+
+
+
+
+/*CV*/
+@media screen and (min-width: 700px)
+{
+  .tableauInfoCV{
+    /*display: flex;*/
+    color:white;
+  
+  }
+}
+
+
+
+
+/*Contact*/
+@media screen and (min-width: 700px)
+{
+  .bodyContact{
+    width: 600px;
+    height: 350px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background: linear-gradient(to bottom right, rgb(14, 5, 97), 60%,white);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(68, 44, 126);
+    border-style: inset;
+    border: 5px solid black;
+    border-width:3px 3px 3px 3px;
+  }   
+}
+
+@media screen and (min-width: 700px)
+{
+  .conteneurForm
+  {
+    display: flex;
+
+  }
+}
+
+/* @media screen and (min-width: 700px)
+{
+  label
+  {
+    display: block;
+    width: 330px;
+    float: left;
+    font-size: 18;
+  }
+} */
+
+@media screen and (min-width: 700px)
+{
+  .elementNom
+  {
+    display: flex;
+    width: 600px;
+    height: 25px;
+    float: left;
+    font-size: 18;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .elementPrenom
+  {
+    display: flex;
+    width: 600px;
+    height: 25px;
+    float: left;
+    font-size: 18;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .elementTelephone
+  {
+    display: flex;
+    width: 600px;
+    height: 25px;
+    float: left;
+    font-size: 18;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .elementEmail
+  {
+    display: flex;
+    width: 600px;
+    height: 25px;
+    float: left;
+    font-size: 18;
+  }
+}
+
+
+@media screen and (min-width: 700px)
+{
+  .elementProfession
+  {
+    display: flex;
+    width: 600px;
+    height: 25px;
+    float: left;
+    font-size: 18;
+  }
+}
+
+
+@media screen and (min-width: 700px)
+{
+  .elementMessage
+  {
+    display: flex;
+    width: 600px;
+    height: 100px;
+    float: left;
+    font-size: 18;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .elementEnvoyer
+  {
+    display: flex;
+    width: 600px;
+    height: 25px;
+    float: left;
+    font-size: 18;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .boutonRetourContact{
+    background-color: rgb(9, 5, 48);
+    height: 400px;
+    width: 400px;
+    background-image: url("../images/Astronaute.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 400px  ;
+    position: relative;
+    left:220px;
+    top: 130px;
+    font-size: 20;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+  .boutonRetourPortfolioContact{
+    color:white;
+    background-color: grey;
+    font-size: 25;    
+  }
+}
